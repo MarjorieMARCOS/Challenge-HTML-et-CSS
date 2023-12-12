@@ -1,1 +1,99 @@
-/* Ici vos styles CSS*/
+body {
+    font-family: sans-serif;
+    background-color: #E3F1EF;
+}
+
+header {
+    background-color: #0AC3A7;
+    color: white;
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+h2, h3, h4 {
+    text-align: center;
+    margin: 30px;
+
+}
+p {
+    text-align: left;
+    line-height: 30px;
+    font-size: 19px;
+}
+
+.htmllefond__section {
+    background-color: #FFFFFF;
+}
+.csslaform__section {
+    background-color: #FFFFFF;
+}
+
+.csslaform__section-paragrapheh2 {
+    text-align: center;
+    background-color: #FFFFE0;
+}
+
+.csslaform__section--titreh2 {
+    color: #279774;
+    font-size: 35px;
+    font-weight: 500;
+
+}
+
+.htmllefond__section--paragrapheh2 {
+    text-align: center;
+    background-color: #FFFFE0;
+}
+.htmllefond__section--titreh2 {
+    color: #279774;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.csslaform__section--titreh3 {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.yellowbold {
+    background-color: yellow;
+    font-weight: 800;
+}
+.overline {
+    text-decoration: overline;
+}
+.big {
+    font-size: 100px;
+}
+.nav__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 17px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+footer {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #0AC3A7;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.whitebold {
+    font-weight: 800;
+    font-size: 16px;
+}
+.black {
+    color: #000000;
+}
+img {
+    display: block;
+    margin: auto;
+    border-radius: 3px;
+}

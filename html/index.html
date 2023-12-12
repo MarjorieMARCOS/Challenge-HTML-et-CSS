@@ -1,11 +1,91 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>HTML et CSS FOR LIFE 😍</title>
     <meta charset="UTF-8">
-    <title>HTML et CSS</title>
-    <!-- ajoutez ici le lien vers votre fichier css style.css (dans le dossier css) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="marjorie.marcos@oclock.scool" content="">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <!-- Votre HTML viendra par ici ;) -->
+    <header class="header">
+        <nav>
+            <h1>HTML <span class="big">&</span> CSS</h1>
+            <ul class="nav__list">
+                <li><a href="#">🏠 Home</a></li>
+                <li><a href="#">🛍️ HTML : LE FOND</a></li>
+                <li><a href="#">👫 CSS : LA FORME</a></li>
+                <li><a href="#">💌 Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="htmllefond__section">
+        <h2 class="htmllefond__section--titreh2">HTML : LE FOND</h2>
+        <p class="htmllefond__section--paragrapheh2">
+            <span class="yellowbold">HTML</span> signifie <span class="overline">"HyperText Markup Language"</span> qu'on peut traduire par "langage de balises pour l'hypertexte". Il est utilisé afin de créer et de
+            représenter le contenu d'une page web et sa structure. D'autres technologies sont utilisées avec HTML
+            pour décrire la présentation d'une page (CSS) et/ou ses fonctionnalités interactives JavaScript
+        </p>
+        <h3 class="htmllefond__section--titreh3">Les textes</h3>
+        <p>
+            Avec les balises <span class="yellowbold">h1-h6</span> il est possible de définir des titres en respectant une logique de profondeur
+
+            <ul>
+                <li>h1 : 1. : Titre principal</li>
+                <ul>
+                    <li>h2 : 1.1 : sous-titre</li>
+                    <ul>
+                        <li>h3 : 1.1.1 ...</li>
+                        <li>h3 : 1.1.1 ...</li>
+                        <li>h3 : 1.1.3 ...</li>
+                    </ul>
+                    <li>h2 : 1.2 : sous-titre</li>
+                    <li>h2 : 1.3 : sous-titre</li>
+                </ul>
+            </ul>
+
+            Pour représenter un paragraphe de texte courant la balise <span class="yellowbold">p</span> est parfaite
+            <span class="yellowbold">&lt;strong&gt;</span> et <span class="yellowbold">&lt;em&gt;</span> sont des balises permettant de définir des mots ou expressions <span class="overline">signifiants</span> dans un texte courant.
+        </p>
+    </section>
+
+    <section class="csslaform__section">
+        <h2 class="csslaform__section--titreh2">CSS : LA FORME</h2>
+        <p class="csslaform__section-paragrapheh2">
+            <span class="yellowbold">CSS</span> signifie <span class="overline">"Cascading Style Sheets"</span>, c'est un langage de feuille de style utilisé pour décrire la présentation d'un document
+            écrit en HTML ou en XML. CSS décrit la façon dont les éléments doivent être affichés à l'écran, sur du papier, en vocalisation,
+            ou sur d'autres support.
+        </p>
+        <h3 class="csslaform__section--titreh3">Anatomie d'une règle CSS</h3>
+        <img src="../css-declaration-small.png" alt="Régle de syntaxe CSS">
+
+
+            <h3 class="csslaform__section--titreh4">Sélecteur</h3>
+        <p class="csslaform__section-paragrapheh4">
+            C'est le nom de l'élément HTML situé au début de l'ensemble de règles. Il permet de sélectionner les éléments sur lesquels
+            appliquer le style souhaité (en l'occurence, les éléments p). Pour mettre en forme un élément différent, il suffit de changer
+            le selecteur.
+        </p>
+        <h4 class="csslaform__section--titreh4">Déclaration</h4>
+        <p class="csslaform__section-paragrapheh4">
+            C'est une règle simple comme color: red; qui détermine les propriétés de l'élément que l'on veut mettre en forme.
+        </p>
+        <h4 class="csslaform__section--titreh4">Propriété</h4>
+        <p class="csslaform__section-paragrapheh4">
+            Les différentes façons dont on peut mettre en forme un élément HTML (dans ce cas, color est une propriété des éléments p)
+            En CSS, vous choisissez les différentes propriétés que vous voulez utiliser dans une règle CSS.
+        </p>
+        <h4 class="csslaform__section--titreh4">Valeur de la proprété</h4>
+        <p class="csslaform__section-paragrapheh4">
+            Les différentes façons dont on peut mettre en forme un élément HTML (dans ce cas, color est une propriété des éléments p).
+            En CSS, vous choisissez les différentes propriétés que vous voulez utiliser dans une règle CSS.
+        </p>
+    </section>
+
+<footer>De plus amples informations sont disponibles sur les fiches récap ou sur le MDN <br>
+    <span class="whitebold"><span class="black">Ressources</span> : htmlreference <span class="black"> - </span>cssreference <span class="black">-</span> MDN</span>
+</footer>
+
+
 </body>
 </html>
