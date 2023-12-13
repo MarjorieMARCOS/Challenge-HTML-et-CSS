@@ -23,35 +23,22 @@ p {
     font-size: 19px;
 }
 
-.htmllefond__section {
-    background-color: #FFFFFF;
-}
-.csslaform__section {
+.htmllefond__section, .csslaform__section {
     background-color: #FFFFFF;
 }
 
-.csslaform__section-paragrapheh2 {
+
+.csslaform__section-paragrapheh2, .htmllefond__section--paragrapheh2 {
     text-align: center;
     background-color: #FFFFE0;
 }
 
-.csslaform__section--titreh2 {
+.csslaform__section--titreh2, .htmllefond__section--titreh2 {
     color: #279774;
     font-size: 35px;
     font-weight: 500;
 
 }
-
-.htmllefond__section--paragrapheh2 {
-    text-align: center;
-    background-color: #FFFFE0;
-}
-.htmllefond__section--titreh2 {
-    color: #279774;
-    font-size: 35px;
-    font-weight: 500;
-}
-
 .csslaform__section--titreh3 {
     font-style: italic;
     font-weight: 400;
