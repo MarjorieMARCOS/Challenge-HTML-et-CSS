@@ -1,0 +1,42 @@
+a:-webkit-any-link {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border-radius: 3px;
+}
+footer {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #0AC3A7;
+    font-size: 20px;
+    line-height: 30px;
+}
+body {
+    font-family: sans-serif;
+    background-color: #E3F1EF;
+}
+
+header {
+    background-color: #0AC3A7;
+    color: white;
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+h2, h3, h4 {
+    text-align: center;
+    margin: 30px;
+
+}
+p {
+    text-align: left;
+    line-height: 30px;
+    font-size: 19px;
+}
